@@ -2,6 +2,6 @@ fn main() {
     test_func();
 }
 fn test_func() {
-    let x: () = ();
+    let x: i8 = 5;
     println!("{:?}", x);
 }
