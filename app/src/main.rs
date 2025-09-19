@@ -2,7 +2,10 @@ fn main() {
     test_func();
 }
 fn test_func() {
-    let x: f32 = 255.0;
-    let y: u8 = x as u8 - 5;
-    println!("{:?}", y);
+    let ages: [u16; 5] = [61, 62, 63, 64, 65];
+
+    println!("{:?}", ages);
+
+    let new_ages: &[u16] = &ages[1..4];
+    println!("{:?}", new_ages);
 }
