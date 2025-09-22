@@ -1,6 +1,10 @@
 fn main() {
-    test_func();
+    // test_func();
+    let myresult: String = get_full_name("Shane", "jones");
+    println!("Hello from {0}", myresult);
 }
+
+#[allow(dead_code)]
 fn test_func() {
     let ages: [u16; 5] = [61, 62, 63, 64, 65];
 
