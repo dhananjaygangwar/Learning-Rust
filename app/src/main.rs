@@ -1,6 +1,8 @@
+pub mod helpers;
+
 fn main() {
     // test_func();
-    let myresult: String = get_full_name("Shane", "jones");
+    let myresult: String = helpers::get_full_name("Shane", "jones");
     println!("Hello from {0}", myresult);
 }
 
