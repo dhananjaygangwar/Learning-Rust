@@ -2,7 +2,7 @@ pub mod helpers;
 
 fn main() {
     // test_func();
-    let myresult: String = helpers::namehelpers::get_full_name("Shane", "jones");
+    let myresult: String = helpers::namehelpers::get_full_name("djay", "jones");
     println!("Hello from {0}", myresult);
 }
 
