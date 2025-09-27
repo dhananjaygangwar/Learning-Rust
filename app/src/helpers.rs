@@ -4,3 +4,9 @@ pub mod namehelpers {
         return full_name;
     }
 }
+
+pub mod database {}
+
+pub mod privatefns {
+    pub fn get_age_plus_5() {}
+}
