@@ -5,6 +5,9 @@ fn main() {
 
     let myresult: String = helpers::namehelpers::get_full_name("djay", "jones");
     println!("Hello from {0}", myresult);
+
+    let new_age = helpers::privatefns::get_age_plus_5(23);
+    println!("new plus age is {0}", new_age);
 }
 
 #[allow(dead_code)]

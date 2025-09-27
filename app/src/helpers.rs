@@ -8,5 +8,7 @@ pub mod namehelpers {
 pub mod database {}
 
 pub mod privatefns {
-    pub fn get_age_plus_5() {}
+    pub fn get_age_plus_5(age: u16) -> u16 {
+        return age + 5;
+    }
 }
